@@ -9,4 +9,5 @@ def countdown(cnt)
     puts "#{cnt} SECOND(S)!"
     cnt -= 1
   end
+  sleep 5
 end
