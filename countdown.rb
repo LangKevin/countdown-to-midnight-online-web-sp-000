@@ -11,8 +11,8 @@ def countdown(cnt)
   end
 end
 
-def countdown_with_sleep
-  sleep 5
+def countdown_with_sleep(num)
+  sleep num
   if cnt == 12
     return "HAPPY NEW YEAR!"
   end
