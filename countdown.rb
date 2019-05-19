@@ -5,7 +5,7 @@ def countdown(cnt)
   if cnt == 12
     return "HAPPY NEW YEAR!"
   while cnt > 0
-    puts "#{cnt} SECOND(S)!"
+s    puts "#{cnt} SECOND(S)!"
     cnt -= 1
   end
 end
